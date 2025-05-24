@@ -30,7 +30,7 @@ jobs:
 
       - name: Clone BPB workjs
         run: |
-          wget -O origin.js https://github.com/Lu6618/MFJD/blob/main/_worker.js       
+          wget -O origin.js https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/v3.2.7/worker.js     
       
       - name: Obfuscate BPB worker js
         run: |
